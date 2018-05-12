@@ -1,0 +1,34 @@
+.view--home{
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+
+.home__title-container{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__title-container .home__title {
+    width: 60%;
+    text-align: center;
+    font-size: 3em;
+}
+
+.home__button-container{
+    height: 20%;
+}
+
+.home__button-container .button {
+    margin: 0 auto;
+}
+
+.home__addendum-container{
+    height: 30%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}

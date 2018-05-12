@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Home.css';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import Button from '../../components/Button';
 
 export class Home extends React.Component{
     static propTypes = {
@@ -9,7 +12,21 @@ export class Home extends React.Component{
     
     render(){
         return(
-            null
+            <div className="view--home">
+                <div className="home__title-container">
+                    <h1 className="home__title">Hi there. Want a little assistance with your stay?</h1>
+                </div>
+                <div className="home__button-container">
+                    <Button>
+                        <Link to="/swipe">
+                            <h2>Check In</h2>
+                        </Link>
+                    </Button>
+                </div>
+                <div className="home__addendum-container">
+                    <p>I accept the terms and conditions</p>
+                </div>
+            </div>
         )
     }
 };
