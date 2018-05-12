@@ -1,0 +1,34 @@
+.background {
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.background__header-container{
+    height: 60px;
+    width: 100%;
+}
+
+.background__main-container{
+    width: 80%;
+    height: auto;
+}
+
+.background__footer-container{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.background__footer-container img {
+    height: 60px;
+    width: auto;
+}
