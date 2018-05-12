@@ -1,0 +1,1 @@
+export { default as demoReducer} from './reducers/demoReducer';
