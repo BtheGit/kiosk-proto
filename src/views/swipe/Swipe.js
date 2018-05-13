@@ -20,7 +20,11 @@ export class Swipe extends React.Component{
                     <p>Remember the card you used to make the reservation? That's the one you'll need to swipe to get going</p>
                 </div>
                 <div className="swip__temp-button-container">
-                    <Button className="button--dark"><Link to="/confirm"><h3>[swipe]</h3></Link></Button>
+                    <Link to="/confirm">
+                        <Button className="button--dark">
+                            <h3>[swipe]</h3>
+                        </Button>
+                    </Link>
                 </div>
             </div>
         )

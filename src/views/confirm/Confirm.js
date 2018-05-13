@@ -20,9 +20,21 @@ export class Confirm extends React.Component{
                 <img src={ roomHero }/>
                 <div className="confirm__options-container row">
                     <p>Your card on file (Visa ending in 1234) will be charged for your stay.</p>
-                    <Button className="button--dark"><Link to="/create-key"><h3>I agree</h3></Link></Button>
-                    <Button className="button--dark"><Link to="/swipe"><h3>Change card</h3></Link></Button>
-                    <Button><Link to="/"><h3>Cancel</h3></Link></Button>
+                    <Link to="/room-info">
+                        <Button className="button--dark">
+                            <h3>I agree</h3>
+                        </Button>
+                    </Link>
+                    <Link to="/swipe">
+                        <Button className="button--dark">
+                            <h3>Change card</h3>
+                        </Button>
+                    </Link>
+                    <Link to="/">
+                        <Button>
+                            <h3>Cancel</h3>
+                        </Button>
+                    </Link>
                 </div>
             </div>
         )

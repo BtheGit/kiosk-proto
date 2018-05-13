@@ -1,0 +1,28 @@
+.view--room-info{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.room-info__title-container{
+    height: 180px;
+    padding-right: 40%;
+
+}
+
+.view--room-info img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.room-info__info-container p {
+    padding-right: 50%;
+}
+
+.room-info__button-container {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

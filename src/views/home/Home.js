@@ -17,11 +17,11 @@ export class Home extends React.Component{
                     <h1 className="home__title">Hi there. Want a little assistance with your stay?</h1>
                 </div>
                 <div className="home__button-container">
-                    <Button>
-                        <Link to="/swipe">
+                    <Link to="/swipe">
+                        <Button>
                             <h2>Check In</h2>
-                        </Link>
-                    </Button>
+                        </Button>
+                    </Link>
                 </div>
                 <div className="home__addendum-container">
                     <p>I accept the terms and conditions</p>

@@ -1,0 +1,45 @@
+.view--key-ready{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.key-ready__title-container{
+    height: 180px;
+    text-align: center;
+}
+
+.key-ready__graphic-container{
+
+    .graphic-success{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin: 60px auto;
+        background: rgb(0, 193, 0);
+        color: white;
+        font-size: 8em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: pulsating 2.5s infinite;
+    }
+}
+
+@keyframes pulsating {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgb(89, 255, 89);
+    }
+
+    80% {
+        box-shadow: 0 0 0 30px rgb(188, 252, 170);
+    }
+}
+
+.key-ready__options-container{
+    text-align: center;
+
+    .button--dark{
+        background: black;
+    }
+}
