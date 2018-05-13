@@ -16,7 +16,8 @@
 
 .background__main-container{
     width: 80%;
-    height: auto;
+    max-width: 768px;
+    flex:1;
 }
 
 .background__footer-container{
