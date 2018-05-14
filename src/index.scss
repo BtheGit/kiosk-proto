@@ -29,3 +29,7 @@ html, body, #root {
   .row {
     margin: 0 50px;
   }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
